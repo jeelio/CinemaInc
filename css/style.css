@@ -390,7 +390,7 @@ h4 {
 }
 #slogan {
 	width: 100%;
-	height:322px;
+	height:100%;
 	position:relative;
 	background:url(../images/banner-bg.gif) no-repeat left top;
 	color:#1d1d1d;
