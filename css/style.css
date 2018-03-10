@@ -340,13 +340,8 @@ h4 {
 	float:left;
 	padding-left:54px;
 }
-#header .row-2 {
+#header .tabs {
 	height:51px;
-}
-#header .row-2 ul {
-	width:100%;
-	overflow:hidden;
-    white-space: nowrap;
 }
 #header .row-2 ul li {
 	float:left;
@@ -355,23 +350,7 @@ h4 {
 	margin-right:5px;
 	background-color:#000;
 }
-#header .row-2 ul li.last {
-	margin-right:0;
-}
-#header .row-2 ul li a {
-	text-decoration:none;
-	color:#f0f0f0;
-	width:100%;
-	min-width: 70px;
-	height:56px; 
-	float:left;
-	text-align:center;
-}
-#header .row-2 ul li a:hover, #header .row-2 ul li a.active {
-	color:#d72a18;
-	background-image:url(../images/nav-act.gif);
-    background-size: 100% 59px;
-}
+
 #content .content {
 	padding:30px 0 39px 50px;
 }
@@ -392,17 +371,18 @@ h4 {
 	height:100%;
 	position:relative;
 	background:url(../images/banner-bg.gif) no-repeat left top;
+	background-size: 110%;
 	color:#1d1d1d;
-	background-size: 100%;
 }
 #slogan .image {
 	position:absolute;
-	right:-30px;
+	right:-50px;
 	top:-11px;
 	z-index:100;
-	width:572px;
+	width:50%;
 	height:348px;
 	background:url(../images/banner-img.png) no-repeat left top;
+	background-size: contain;
 }
 #slogan p {
 	margin-bottom:23px;
@@ -468,6 +448,11 @@ a {
 	outline:none;
 }
 
+/***
+Everything below here is naasse
+Want to merge and purge the above
+***/
+
 .inner h3 {
 	padding-top: 5px;
 }
@@ -493,4 +478,39 @@ a {
 	height: 1.5em;	
 	margin: 0!important;
 	float: none!important;
+}
+
+.tabs > ul.nav.nav-tabs {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.tabs > ul.nav.nav-tabs > li {
+    float: none;
+    display: table-cell;
+}
+.tabs > ul.nav.nav-tabs > li > a {
+    text-align: center;
+}
+
+
+#header .tabs ul {
+	width:100%;
+}
+
+#header .tabs ul li a {
+	text-decoration:none;
+	color:#f0f0f0;
+	width:100%;
+	min-width: 70px;
+	height:56px; 
+	float:left;
+	text-align:center;
+	padding-top: 5px;
+}
+
+#header .tabs ul li a:hover, #header .tabs ul li a.active {
+	color:#d72a18;
+	background-image:url(../images/nav-act.gif);
+    background-size: 100% 59px;
 }
