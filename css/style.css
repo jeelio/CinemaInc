@@ -108,11 +108,11 @@ ul, ol {
 	color:#fff;
 }
 #contacts-form textarea {
-	width:674px;
+	width:672px;
 	height:174px;
 	padding:2px 28px 1px 28px;
-	background:url(../images/textarea-bg.gif) no-repeat left top;
-	border:0;
+	background-color: black;
+	border:1px solid white;
 	color:#fff;
 	margin-bottom:15px;
 	overflow:auto;
@@ -232,7 +232,6 @@ h2 span {
 h3 {
 	font-size:30px;
 	line-height:1.2em;
-	color:#bfbfbf;
 	margin-bottom:20px;
 }
 h3 b {
@@ -481,4 +480,13 @@ a {
 .inner li {
 	padding-top: 3px;
 	list-style-type: none;
+}
+
+.noborder {
+	border: 0;
+}
+
+.poster {
+	width: 182px;
+	height=268px;
 }

@@ -3,10 +3,8 @@
   tabs.each(function(idx, tab) {
     var oneTab = $(tab);
     var tabLink = oneTab[0].href;
-    console.log(tabLink);
 	
 	if (tabLink === window.location.href) {
-	  console.log('Found active');
 	  oneTab.addClass("active");
 	}
   });
