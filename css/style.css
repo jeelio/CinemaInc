@@ -411,7 +411,6 @@ Want to merge and purge the above
 }
 
 .poster {
-	padding-top: 15px;
 	width: 182px;
 	height: 268px;
 }
@@ -506,4 +505,18 @@ form textarea {
 }
 form .link2 {
 	float:right;
+}
+
+.list li {
+	padding-top: 20px;
+}
+
+.list li:after {
+    content: "";
+	clear: both;
+    display: block;
+    height: 2px;
+    width: 100%;
+    margin: 1px;
+    background: white;
 }
