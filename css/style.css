@@ -80,46 +80,6 @@ ul, ol {
 .tail-bottom {
 	background:url(../images/tail-bottom.gif) left bottom repeat-x;
 }
-#contacts-form {
-	clear:right;
-	width:842px;
-	overflow:hidden;
-}
-#contacts-form fieldset {
-	border:none;
-	float:left;
-}
-#contacts-form .field {
-	clear:both;
-}
-#contacts-form label {
-	float:left;
-	width:112px !important;
-	width:109px;
-	line-height:18px;
-	padding-bottom:8px;
-	color:#fff;
-}
-#contacts-form input {
-	width:293px;
-	padding:1px 0 1px 3px;
-	background:#000;
-	border:1px solid #3a3a3a;
-	color:#fff;
-}
-#contacts-form textarea {
-	width:672px;
-	height:174px;
-	padding:2px 28px 1px 28px;
-	background-color: black;
-	border:1px solid white;
-	color:#fff;
-	margin-bottom:15px;
-	overflow:auto;
-}
-#contacts-form .link2 {
-	float:right;
-}
 .movies {
 	width:100%;
 }
@@ -417,7 +377,6 @@ h4 {
 	background-color:transparent;
 }
 .footerlink a:hover {
-	color: red;
 	background-color:transparent;
 	text-decoration:none;
 }
@@ -506,4 +465,45 @@ Want to merge and purge the above
 	font-size:20px;
 	margin-right:5px;
 	background-color:#000;
+}
+
+form {
+	clear:right;
+	width:842px;
+	overflow:hidden;
+}
+form fieldset {
+	border:none;
+	float:left;
+}
+form .field {
+	clear:both;
+}
+form label {
+	float:left;
+	width:112px !important;
+	width:109px;
+	line-height:18px;
+	padding-bottom:8px;
+	color:#fff;
+}
+form input {
+	width:293px;
+	padding:1px 0 1px 3px;
+	background:#000;
+	border:1px solid #3a3a3a;
+	color:#fff;
+}
+form textarea {
+	width:672px;
+	height:174px;
+	padding:2px 28px 1px 28px;
+	background-color: black;
+	border:1px solid white;
+	color:#fff;
+	margin-bottom:15px;
+	overflow:auto;
+}
+form .link2 {
+	float:right;
 }

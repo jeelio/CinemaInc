@@ -1,0 +1,31 @@
+<p>The Cinema Inc. values your privacy. We will not sell or share your information.
+<form action="#">
+  <fieldset>
+	<div class="field">
+	  <label>Your Name:</label>
+	  <input type="text" id="name"/>
+	</div>
+	<div class="field">
+	  <label>Your Email:</label>
+	  <input type="text" id="email"/>
+	</div>
+	<div class="field">
+	  <label>Your Message:</label>
+	  <textarea cols="1" rows="1" id="message"></textarea>
+	</div>
+	<div class="wrapper">
+  <a href="javascript:buildMail()" class="link2"><span>Send Your Message</span></a>
+  </div>
+  </fieldset>
+</form>
+
+<script>
+  function buildMail() {
+	
+	var body = 'Your Name: ' + $('#name').val();
+	body += '\r\nYour Email: ' + $('#email').val();
+	body += '\r\n\r\n' + $('#message').val();
+	
+    sendMail(mailSubject, body);
+  }
+</script>

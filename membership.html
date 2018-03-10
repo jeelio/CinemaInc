@@ -8,7 +8,7 @@
 <script src="js/cufon-yui.js"></script>
 <script src="js/cufon-replace.js"></script>
 <script src="js/Gill_Sans_400.font.js"></script>
-<script src="js/script.js"></script>
+<script src="js/mail.js"></script>
 </head>
 <body id="page2">
 <!-- START PAGE SOURCE -->
@@ -32,29 +32,7 @@ Our season runs from September to August. Movies are screened the second Sunday 
 
 <p><hr><p>
           <h3>Join the <span>Mailing List</span></h3>
-          <p>The Cinema Inc. values your privacy. We will not sell or share your information.
-          <form id="contacts-form" action="#">
-            <fieldset>
-              <div class="field">
-                <label>Your Name:</label>
-                <input type="text" value=""/>
-              </div>
-              <div class="field">
-                <label>Your Email:</label>
-                <input type="text" value=""/>
-              </div>
-              <div class="field">
-                <label>Your Website:</label>
-                <input type="text" value=""/>
-              </div>
-              <div class="field">
-                <label>Your Message:</label>
-                <textarea cols="1" rows="1"></textarea>
-              </div>
-              <div class="wrapper"> <a href="#" class="link2"> <span> <span>Send Your Message</span> </span> </a> </div>
-            </fieldset>
-          </form>
-
+		  <div id="mailform"></div>
               </div>
             </div>
           </div>
@@ -67,9 +45,11 @@ Our season runs from September to August. Movies are screened the second Sunday 
   </div>
 </div>
 <script> 
+var mailSubject = 'Subscribe Me';
 $(function(){
   $("#header").load("include/header.html"); 
   $("#footer").load("include/footer.html"); 
+    $("#mailform").load("include/mailform.html"); 
 });
 </script> 
 <!-- END PAGE SOURCE -->
