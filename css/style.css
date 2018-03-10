@@ -310,13 +310,13 @@ h4 {
 	width:100%;
 	margin-top:-3px;
 }
-.box .border-left {
+.box .border-left, #footer .border-left {
 	background:url(../images/border-left.gif) repeat-y left top;
 }
-.box .border-right {
+.box .border-right, #footer .border-right {
 	background:url(../images/border-right.gif) repeat-y right top;
 }
-.box .inner {
+.box .inner, #footer .inner {
 	padding:28px 50px 25px 50px;
 }
 #header .row-1 {
@@ -346,6 +346,7 @@ h4 {
 #header .row-2 ul {
 	width:100%;
 	overflow:hidden;
+    white-space: nowrap;
 }
 #header .row-2 ul li {
 	float:left;
@@ -360,17 +361,16 @@ h4 {
 #header .row-2 ul li a {
 	text-decoration:none;
 	color:#f0f0f0;
-	width:184px;
-	height:56px;
+	width:100%;
+	min-width: 70px;
+	height:56px; 
 	float:left;
-	background-image:url(../images/nav-bg.gif);
-	background-repeat:no-repeat;
-	background-position:0 0;
 	text-align:center;
 }
 #header .row-2 ul li a:hover, #header .row-2 ul li a.active {
 	color:#d72a18;
 	background-image:url(../images/nav-act.gif);
+    background-size: 100% 59px;
 }
 #content .content {
 	padding:30px 0 39px 50px;
@@ -422,20 +422,15 @@ h4 {
 	z-index:2;
 }
 #footer {
-	background:url(../images/footer-tail.gif) repeat-x left top #bfbfbf;
-	color:#1d1d1d;
+	color:white;
 	font-size:.86em;
 	line-height:1.667em;
 	text-align:center;
-}
-#footer .left {
-	background:url(../images/footer-left.gif) no-repeat left top;
 }
 #footer .right {
 	min-height:89px;
 	height:auto !important;
 	height:89px;
-	background:url(../images/footer-right.gif) no-repeat right top;
 	text-align:center;
 }
 #footer .footerlink {
@@ -447,10 +442,10 @@ h4 {
 	line-height:normal;
 	white-space:nowrap;
 	text-indent:inherit;
-	color:#1d1d1d;
+	color:white;
 }
 .footerlink a {
-	color:#1d1d1d;
+	color:white;
 	font-weight:normal;
 	margin:0;
 	padding:0;
@@ -459,7 +454,7 @@ h4 {
 	background-color:transparent;
 }
 .footerlink a:hover {
-	color:#1d1d1d;
+	color: red;
 	background-color:transparent;
 	text-decoration:none;
 }
@@ -482,11 +477,20 @@ a {
 	list-style-type: none;
 }
 
-.noborder {
+.youtube {
 	border: 0;
+	width: 560px;
+	height: 315px;
 }
 
 .poster {
+	padding-top: 15px;
 	width: 182px;
-	height=268px;
+	height: 268px;
+}
+
+.movie-info img {
+	height: 1.5em;	
+	margin: 0!important;
+	float: none!important;
 }
