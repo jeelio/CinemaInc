@@ -8,7 +8,7 @@ html, body {
 body {
 	background:#000;
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:100%;
+	font-size:150%;
 	line-height:1em;
 	color:#FFFFFF;
 }
@@ -38,7 +38,7 @@ ul, ol {
 	list-style:none;
 }
 #main {
-	width:940px;
+	width:90%;
 	margin:0 auto;
 	font-size:0.875em;
 }
@@ -167,17 +167,6 @@ ul, ol {
 	text-decoration:none;
 }
 .list li a:hover {
-	color:#d72a18;
-}
-.sitemap-list {
-	padding-bottom:25px;
-}
-.sitemap-list li {
-	padding:0 0 0 10px;
-	line-height:1.714em;
-	background:url(../images/arrow.gif) no-repeat left 8px;
-}
-.sitemap-list li a {
 	color:#d72a18;
 }
 .img-box1 {
@@ -310,9 +299,9 @@ h4 {
 	overflow:hidden;
 	font-size:0;
 	line-height:0;
-	width:918px;
+	width:99%;
 	height:8px;
-	margin-left:11px;
+	margin: 0 auto;
 	background:url(../images/line-hor.gif) repeat-x left top;
 	z-index:1;
 	position:relative;
@@ -400,11 +389,12 @@ h4 {
 	padding:0;
 }
 #slogan {
-	width:940px;
+	width: 100%;
 	height:322px;
 	position:relative;
 	background:url(../images/banner-bg.gif) no-repeat left top;
 	color:#1d1d1d;
+	background-size: 100%;
 }
 #slogan .image {
 	position:absolute;
@@ -482,4 +472,13 @@ h4 {
 }
 a {
 	outline:none;
+}
+
+.inner h3 {
+	padding-top: 5px;
+}
+
+.inner li {
+	padding-top: 3px;
+	list-style-type: none;
 }
