@@ -1,4 +1,4 @@
-const cinemaIncEmail = 'Jenni.Elion@sas.com';
+const cinemaIncEmail = 'thecinemainc@gmail.com';
 
 function sendMail(subject, body) {
   body = encodeURIComponent(body);
