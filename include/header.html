@@ -4,6 +4,10 @@
     var oneTab = $(tab);
     var tabLink = oneTab[0].href;
 		
+	if (tabLink.indexOf('list_seasons.html') > -1 && window.location.href.indexOf('Season_Details.html') > -1) {
+	  oneTab.addClass("active");
+	}
+		
 	if (tabLink === window.location.href) {
 	  oneTab.addClass("active");
 	}

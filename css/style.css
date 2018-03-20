@@ -380,6 +380,7 @@ Want to merge and purge the above
 .poster {
 	width: 182px;
 	height: 268px;
+	padding-bottom: 5px;
 }
 
 .movie-info img {
