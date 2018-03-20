@@ -487,3 +487,25 @@ form .link2 {
     margin: 1px;
     background: white;
 }
+
+.cinema-logo {
+	width: 75%;
+	height: 75%;
+}
+
+.rLabel {
+	padding-right: 10px;
+}
+
+.fLabel {
+	white-space: nowrap;
+	padding-right: 75px;
+}
+
+.field {
+	padding: 3px 0;
+}
+
+.field input {
+	border: 1px solid white;
+}
