@@ -1,6 +1,6 @@
 <p>The Cinema Inc. values your privacy. We will not sell or share your information.
 <div>
-	<input type="radio" class="rButton" id="contactForm1" name="contactForm" value="Feedback" checked>
+	<input type="radio" class="rButton" id="contactForm1" name="contactForm" value="Feedback">
 	<label for="contactForm1" class="rLabel">Feedback</label>
 
 	<input type="radio" class="rButton" id="contactForm2" name="contactForm" value="Membership">
@@ -11,7 +11,7 @@
 </div>
 <br />
 <form action="#">
-  <fieldset>
+  <fieldset id="contact-all" style="display: none;">
 	<div class="field">
 	  <label class="fLabel">Your Name:</label>
 	  <input type="text" id="name"/>
@@ -80,6 +80,8 @@
   }
   
   function updateForm() {
+	$('#contact-all').css('display', 'block');
+
 	$('#membership-group').css('display', 'none');
 	$('#recommendation-group').css('display', 'none');
 	if (mailSubject === 'Membership') {
