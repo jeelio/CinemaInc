@@ -291,7 +291,7 @@ h4 {
 #header .row-1 .fleft {
 	font-size:40px;
 	line-height:1.2em;
-	padding:26px 0 0 47px;
+	padding: 7px 0 0 27px;
 }
 #header .row-1 .fleft a {
 	text-decoration:none;
@@ -490,7 +490,7 @@ form .link2 {
 }
 
 .cinema-logo {
-	height: 85px;
+	height: 100px;
 }
 
 .rLabel {
