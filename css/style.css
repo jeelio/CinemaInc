@@ -389,6 +389,10 @@ Want to merge and purge the above
 	float: none!important;
 }
 
+.movie-review {
+	clear: left;
+}
+
 .tabs > ul {
     display: table;
     width: 100%;
