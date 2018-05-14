@@ -7,7 +7,11 @@
 	if (tabLink.indexOf('list_seasons.html') > -1 && window.location.href.indexOf('Season') > -1) {
 	  oneTab.addClass("active");
 	}
-		
+	
+	if (tabLink.indexOf("index.html") > -1 && window.location.href.substr(window.location.href.length - 1) === '/') {
+	  oneTab.addClass("active");
+	}
+
 	if (tabLink === window.location.href) {
 	  oneTab.addClass("active");
 	}
