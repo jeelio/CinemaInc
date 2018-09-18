@@ -284,7 +284,7 @@ h4 {
 	padding:28px 50px 25px 50px;
 }
 #header .row-1 {
-	height:112px;
+	height:210px; /* Modified header row height to match image, plus some padding */
 	width:100%;
 	overflow:hidden;
 }
@@ -519,4 +519,7 @@ form .link2 {
     width: 100%;
     margin: 1px;
     background: white;
+}
+#content {
+	padding-top: 98px; /* Increased image height by 88px + 10px padding in header, adding padding to content */
 }
